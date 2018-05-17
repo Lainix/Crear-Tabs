@@ -1,0 +1,67 @@
+.contenedor {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}
+
+#seccionInicial .logo {
+    height: 40px;
+    width: 60px;
+}
+
+#seccionInicial .titulo {
+    color: #fcb425;
+    font-size: 3em;
+    text-align: center;
+}
+
+#seccionInicial p.descripcionEmpresa {
+    color: #1a1a1a;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+}
+
+#seccionContenido .contenedorTabs {
+    border-bottom: #fcb425 solid 1px;
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.contenedorTabs li {
+    list-style: none;
+    display: inline-block;
+}
+
+.tab {
+    background-color: #fcb425;
+    border-radius: 5%;
+    border-bottom: none;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+
+.divImg,
+.divTexto {
+    display: inline-block;
+}
+
+.fotoComida {
+    height: 400px;
+    width: 500px;
+}
+
+ul {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.divTexto {
+    padding-left: 36px;
+    position: absolute;
+}
+
+.divTexto h3 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 2em;
+}

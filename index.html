@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/main.css">
+</head>
+
+<body>
+    <section id="seccionInicial" class="contenedor">
+        <h1 class="titulo"><b>Lab Menú<img src="assets/images/hamburguesa.jpg" alt="LogoLabMenu" class="logo"></b></h1>
+        <p class="descripcionEmpresa">Somos la cadena de restaurantes de entrega rápida más grande, exitosa e inovadora de México y para alcanzar el estándar
+            de servicion necesario para lograrlo, mantenemos una estricta política de eficiencia y trato ético y honesto
+            hacia nuestros clientes, proveedores, colaboradores, asociados y a la comunidad en general.</p>
+    </section>
+    <section id="seccionContenido" class="contenedor">
+        <ul class="contenedorTabs">
+            <li><button type=" button" name="button" data-tab-seleccionado="tabDesayuno" class="tab">Desayuno</button></li>
+            <li><button type="button" name="button" data-tab-seleccionado="tabComida" class="tab">Comida</button></li>
+            <li><button type="button" name="button" data-tab-seleccionado="tabCena" class="tab">Cena</button></li>
+        </ul>
+        <div class=" ">
+            <article id="desayuno">
+                <div class="divImg">
+                    <img src="assets/images/desayuno.jpg" alt="desayuno" class="fotoComida">
+                </div>
+                <div class="divTexto">
+                    <h3>Desayuno</h3>
+                    <ul>
+                        <li>Hot Cakes</li>
+                        <li>Café</li>
+                        <li>Fruta</li>
+                        <li>Jugo</li>
+                    </ul>
+                </div>
+            </article>
+            <article id="comida">
+                <div class="divImg">
+                    <img src="assets/images/comida.jpg" alt="comida" class="fotoComida">
+                </div>
+                <div class="divTexto">
+                    <h3>Comida</h3>
+                    <ul>
+                        <li>Enchiladas</li>
+                        <li>Frijoles</li>
+                        <li>Arroz</li>
+                        <li>Jugo</li>
+                    </ul>
+                </div>
+            </article>
+            <article id="cena">
+                <div class="divImg">
+                    <img src="assets/images/cena.jpg" alt="cena" class="fotoComida">
+                </div>
+                <div class="divTexto ">
+                    <h3>Cena</h3>
+                    <ul>
+                        <li>Pechuga asada</li>
+                        <li>Ensalada</li>
+                        <ul>
+                            <li>Lechuga</li>
+                            <li>Jitomate</li>
+                            <li>Rábano</li>
+                        </ul>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    <script type="text/javascript" src="Js/app.js"></script>
+</body>
+
+</html>
